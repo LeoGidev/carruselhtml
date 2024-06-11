@@ -9,16 +9,17 @@ body {
 }
 
 .carousel-container {
-    
+    border: 3px solid white;
     border-radius: 20px;
     /*overflow: hidden;*/
-    width: 90vw;
+    width: 100vw;
     height: 40vh;
     position: relative;
     perspective: 10000px; /* Añade perspectiva */
 }
 
 .carousel {
+    border: 2px solid red;
     display: flex;
     position: absolute;
     width: 100%;
@@ -65,18 +66,52 @@ body {
 }
 
 @keyframes slide {
-    0% { transform: translateX(79.5vw) rotateY(90deg) translateZ(0); opacity: 1; z-index:0; filter:blur(0); }
-    5% { transform: translateX(68vw) rotateY(60deg) translateZ(50px); opacity: 1; z-index:50; }
-    15% { transform: translateX(56.5vw) rotateY(30deg) translateZ(100px); opacity: 1; z-index:100; }
-    25% { transform: translateX(45vw) rotateY(0deg) translateZ(150px); opacity: 1; z-index:150; }
-    35% { transform: translateX(34.5vw) rotateY(-30deg) translateZ(100px); opacity: 1;z-index:1000; }
-    45% { transform: translateX(23vw) rotateY(-60deg) translateZ(50px); opacity: 1; z-index:50;}
-    55% { transform: translateX(11.5vw) rotateY(-90deg) translateZ(0); opacity: 1; z-index:0; filter: blur(0);}
-    60% { transform: translateX(0vw) rotateY(-120deg) translateZ(-50); opacity: 1; z-index:-50; filter: blur(100);}
-    65% { transform: translateX(11.5vw) rotateY(-150deg) translateZ(-100); opacity: 1; z-index:-100;}
-    70% { transform: translateX(23vw) rotateY(-180deg) translateZ(-150); opacity: 1; z-index:-150;}
-    75% { transform: translateX(34.5vw) rotateY(-210deg) translateZ(-100); opacity: 1; z-index:-100;}
-    100% { transform: translateX(79.5vw) rotateY(-270deg) translateZ(0); opacity: 1; z-index:0; filter: blur(100);}
+    0% { 
+        transform: translateX(79.5vw) rotateY(90deg) translateZ(0);
+         opacity: 1;
+         z-index:0;
+         scale:1; 
+        }
+    5% { 
+        transform: translateX(68vw) rotateY(60deg) translateZ(50px);
+         opacity: 1; 
+         z-index:50;
+         }
+    15% { 
+        transform: translateX(56.5vw) rotateY(30deg) translateZ(100px);
+        opacity: 1;
+        z-index:100;
+     }
+    25% { 
+        transform: translateX(45vw) rotateY(0deg) translateZ(150px);
+        opacity: 1;
+        z-index:150; }
+    35% {
+         transform: translateX(34.5vw) rotateY(-30deg) translateZ(100px);
+         opacity: 1;
+         z-index:100; 
+        }
+    45% { 
+        transform: translateX(23vw) rotateY(-60deg) translateZ(50px);
+         opacity: 1;
+          z-index:50;
+        }
+    55% { 
+        transform: translateX(11.5vw) rotateY(-90deg) translateZ(0); 
+        opacity: 1; 
+        z-index:0;
+        scale:1;
+    }
+
+    60% { transform: translateX(0vw) rotateY(-120deg) translateZ(-50); opacity: 1; z-index:-50; filter: blur(100); scale:0.9;}
+
+    65% { transform: translateX(11.5vw) rotateY(-150deg) translateZ(-100); opacity: 1; z-index:-100; scale:0.8;}
+    70% { transform: translateX(23vw) rotateY(-180deg) translateZ(-150); opacity: 1; z-index:-150; scale:0.7;}
+    75% { transform: translateX(34.5vw) rotateY(-210deg) translateZ(-100); opacity: 1; z-index:-100; scale:0.8;}
+    80% { transform: translateX(34.5vw) rotateY(-210deg) translateZ(-100); opacity: 1; z-index:-100; scale:0.8;}
+    85% { transform: translateX(34.5vw) rotateY(-210deg) translateZ(-100); opacity: 1; z-index:-100; scale:0.8;}
+    90% { transform: translateX(34.5vw) rotateY(-210deg) translateZ(-100); opacity: 1; z-index:-100; scale:0.8;}
+    100% { transform: translateX(79.5vw) rotateY(-270deg) translateZ(0); opacity: 1; z-index:0; filter: blur(100); scale:0.9;}
 }
 
 
