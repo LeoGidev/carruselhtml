@@ -7,15 +7,15 @@ document.addEventListener('DOMContentLoaded', () => {
         images.forEach((img, index) => {
             if (index === currentIndex) {
                 img.classList.add('foco');
-                img.classList.remove('inactive');
+                img.classList.remove('sinfoco');
             } else {
                 img.classList.remove('foco');
-                img.classList.add('inactive');
+                img.classList.add('sinfoco');
             }
         });
 
         const offset = -currentIndex * 100;
-        carousel.style.transform = `translateX(${offset}%)`;
+        //carousel.style.transform = `translateX(${offset}%)`;
     }
 
     function nextImage() {
