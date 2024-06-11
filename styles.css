@@ -23,15 +23,15 @@ body {
 }
 
 .foco {
-    height: 100%;
+   
     border-radius: 10px;
     width: 100%;
     transition: width 1s;
 }
 
 .sinfoco {
-    height: 100% !important;
-    width: 50%;
+    
+    width: 50px;
     transition:1s;
 }
 /*
