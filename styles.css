@@ -22,7 +22,7 @@ body {
     animation: slide 20s infinite linear;
 }
 
-.carousel img {
+.foco {
     border-radius: 10px;
     width: 100%;
     transition: width 1s;
