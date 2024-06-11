@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
 
         const offset = -currentIndex * 100;
-        carousel.style.transform = `translateX(${offset}%)`;
+        //carousel.style.transform = `translateX(${offset}%)`;
     }
 
     function nextImage() {
