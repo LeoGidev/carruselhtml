@@ -22,19 +22,13 @@ body {
     animation: slide 20s infinite linear;
 }
 
-.foco {
-   
+.carousel img {
     border-radius: 10px;
     width: 100%;
-    transition: width 1s;
+    transition: 1s;
 }
 
-.sinfoco {
-    
-    width: 50px;
-    transition:1s;
-}
-/*
+
 @keyframes slide {
     0% {
         transform: translateX(0);
