@@ -6,10 +6,10 @@ document.addEventListener('DOMContentLoaded', () => {
     function updateCarousel() {
         images.forEach((img, index) => {
             if (index === currentIndex) {
-                img.classList.add('active');
+                img.classList.add('foco');
                 img.classList.remove('inactive');
             } else {
-                img.classList.remove('active');
+                img.classList.remove('foco');
                 img.classList.add('inactive');
             }
         });
