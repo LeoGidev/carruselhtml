@@ -19,9 +19,10 @@ body {
 
 .carousel {
     display: flex;
-    position: relative;
+    position: absolute;
     width: 100%;
     height: 100%;
+    border: 10px solid red;
 }
 
 .carousel img {
@@ -63,14 +64,14 @@ body {
 }
 
 @keyframes slide {
-    0%, 100% { transform: translateX(120%) rotateY(90deg); opacity: 0; }
-    5% { transform: translateX(80%) rotateY(60deg); opacity: 1; }
-    15% { transform: translateX(60%) rotateY(30deg); opacity: 1; }
-    25% { transform: translateX(40%) rotateY(0deg); opacity: 1; }
-    35% { transform: translateX(20%) rotateY(-30deg); opacity: 1; }
-    45% { transform: translateX(0%) rotateY(-60deg); opacity: 1; }
-    55% { transform: translateX(-20%) rotateY(-90deg); opacity: 0; }
-    70%, 100% { transform: translateX(-120%) rotateY(-90deg); opacity: 0; }
+    0%, 100% { transform: translateX(100vw) rotateY(90deg); opacity: 1; }
+    5% { transform: translateX(80vw) rotateY(60deg); opacity: 1; }
+    15% { transform: translateX(60vw) rotateY(30deg); opacity: 1; }
+    25% { transform: translateX(40vw) rotateY(0deg); opacity: 1; }
+    35% { transform: translateX(20vw) rotateY(-30deg); opacity: 1; }
+    45% { transform: translateX(0vw) rotateY(-60deg); opacity: 1; }
+    55% { transform: translateX(-20vw) rotateY(-90deg); opacity: 1; }
+    70%, 100% { transform: translateX(-150%) rotateY(-90deg); opacity: 1; }
 }
 
 
