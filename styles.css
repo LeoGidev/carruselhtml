@@ -11,74 +11,67 @@ body {
 .carousel-container {
     border: 10px solid white;
     border-radius: 20px;
-    
+    overflow: hidden;
     width: 90%;
     height: 80vh;
     position: relative;
 }
 
 .carousel {
-    
-    position: absolute;
+    display: flex;
+    position: relative;
     width: 100%;
     height: 100%;
-   
-    border:10px solid red;
 }
 
 .carousel img {
-    
+    position: absolute;
     height: 100%;
     transition: transform 1s, opacity 1s;
-    position: absolute;
     opacity: 0;
-    transition: 1s;
-    border: 10px solid white;
-    border-radius: 20px;
 }
 
 .carousel img:nth-child(1) {
-    animation: slide 40s infinite;
+    animation: slide 20s infinite;
 }
 .carousel img:nth-child(2) {
-    animation: slide 40s infinite 14s;
+    animation: slide 20s infinite 2s;
 }
 .carousel img:nth-child(3) {
-    animation: slide 40s infinite 18s;
+    animation: slide 20s infinite 4s;
 }
 .carousel img:nth-child(4) {
-    animation: slide 40s infinite 112s;
+    animation: slide 20s infinite 6s;
 }
 .carousel img:nth-child(5) {
-    animation: slide 40s infinite 116s;
+    animation: slide 20s infinite 8s;
 }
 .carousel img:nth-child(6) {
-    animation: slide 40s infinite 140s;
+    animation: slide 20s infinite 10s;
 }
 .carousel img:nth-child(7) {
-    animation: slide 40s infinite 124s;
+    animation: slide 20s infinite 12s;
 }
 .carousel img:nth-child(8) {
-    animation: slide 40s infinite 128s;
+    animation: slide 20s infinite 14s;
 }
 .carousel img:nth-child(9) {
-    animation: slide 40s infinite 132s;
+    animation: slide 20s infinite 16s;
 }
 .carousel img:nth-child(10) {
-    animation: slide 40s infinite 136s;
+    animation: slide 20s infinite 18s;
 }
 
 @keyframes slide {
-    0%, 100% { transform: translateX(300%) rotateY(90deg); opacity: 1; }
-    10% { transform: translateX(200%) rotateY(60deg); opacity: 1; }
-    20% { transform: translateX(100%) rotateY(30deg); opacity: 1; }
-    30% { transform: translateX(50%) rotateY(0deg); opacity: 1; }
-    40% { transform: translateX(20%) rotateY(-30deg); opacity: 1; }
-    50% { transform: translateX(0%) rotateY(-60deg); opacity: 1; }
-    60% { transform: translateX(-20%) rotateY(-90deg); opacity: 1; }
-    70%{ transform: translateX(-100%) rotateY(-90deg); opacity: 1; }
-    80%{}
-    90%{}
-    100% { }
+    0%, 100% { transform: translateX(120%) rotateY(90deg); opacity: 0; }
+    5% { transform: translateX(80%) rotateY(60deg); opacity: 1; }
+    15% { transform: translateX(60%) rotateY(30deg); opacity: 1; }
+    25% { transform: translateX(40%) rotateY(0deg); opacity: 1; }
+    35% { transform: translateX(20%) rotateY(-30deg); opacity: 1; }
+    45% { transform: translateX(0%) rotateY(-60deg); opacity: 1; }
+    55% { transform: translateX(-20%) rotateY(-90deg); opacity: 0; }
+    70%, 100% { transform: translateX(-120%) rotateY(-90deg); opacity: 0; }
 }
+
+
 
