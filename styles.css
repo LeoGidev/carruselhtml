@@ -26,42 +26,45 @@ body {
 }
 
 .carousel img {
-    flex: 0 0 20%; 
+    
     height: 100%;
     transition: transform 1s, opacity 1s;
     position: absolute;
     opacity: 0;
+
+    border: 10px solid white;
+    border-radius: 20px;
 }
 
 .carousel img:nth-child(1) {
-    animation: slide 10s infinite;
+    animation: slide 40s infinite;
 }
 .carousel img:nth-child(2) {
-    animation: slide 10s infinite 2s;
+    animation: slide 40s infinite 4s;
 }
 .carousel img:nth-child(3) {
-    animation: slide 10s infinite 4s;
+    animation: slide 40s infinite 8s;
 }
 .carousel img:nth-child(4) {
-    animation: slide 10s infinite 6s;
+    animation: slide 40s infinite 12s;
 }
 .carousel img:nth-child(5) {
-    animation: slide 10s infinite 8s;
+    animation: slide 40s infinite 16s;
 }
 .carousel img:nth-child(6) {
-    animation: slide 10s infinite 10s;
+    animation: slide 40s infinite 40s;
 }
 .carousel img:nth-child(7) {
-    animation: slide 10s infinite 12s;
+    animation: slide 40s infinite 24s;
 }
 .carousel img:nth-child(8) {
-    animation: slide 10s infinite 14s;
+    animation: slide 40s infinite 28s;
 }
 .carousel img:nth-child(9) {
-    animation: slide 10s infinite 16s;
+    animation: slide 40s infinite 32s;
 }
 .carousel img:nth-child(10) {
-    animation: slide 10s infinite 18s;
+    animation: slide 40s infinite 36s;
 }
 
 @keyframes slide {
@@ -72,6 +75,9 @@ body {
     40% { transform: translateX(20%) rotateY(-30deg); opacity: 1; }
     50% { transform: translateX(0%) rotateY(-60deg); opacity: 1; }
     60% { transform: translateX(-20%) rotateY(-90deg); opacity: 0; }
-    70%, 100% { transform: translateX(-100%) rotateY(-90deg); opacity: 0; }
+    70%{}
+    80%{}
+    90%{}
+    100% { transform: translateX(-100%) rotateY(-90deg); opacity: 0; }
 }
 
