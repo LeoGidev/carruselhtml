@@ -11,18 +11,18 @@ body {
 .carousel-container {
     border: 10px solid white;
     border-radius: 20px;
-    overflow: hidden;
+    
     width: 90%;
     height: 80vh;
     position: relative;
 }
 
 .carousel {
-    display: flex;
+    
     position: absolute;
     width: 100%;
     height: 100%;
-    overflow: hidden;
+   
     border:10px solid red;
 }
 
@@ -32,7 +32,7 @@ body {
     transition: transform 1s, opacity 1s;
     position: absolute;
     opacity: 0;
-
+    transition: 1s;
     border: 10px solid white;
     border-radius: 20px;
 }
@@ -41,42 +41,42 @@ body {
     animation: slide 40s infinite;
 }
 .carousel img:nth-child(2) {
-    animation: slide 40s infinite 4s;
+    animation: slide 40s infinite 14s;
 }
 .carousel img:nth-child(3) {
-    animation: slide 40s infinite 8s;
+    animation: slide 40s infinite 18s;
 }
 .carousel img:nth-child(4) {
-    animation: slide 40s infinite 12s;
+    animation: slide 40s infinite 112s;
 }
 .carousel img:nth-child(5) {
-    animation: slide 40s infinite 16s;
+    animation: slide 40s infinite 116s;
 }
 .carousel img:nth-child(6) {
-    animation: slide 40s infinite 40s;
+    animation: slide 40s infinite 140s;
 }
 .carousel img:nth-child(7) {
-    animation: slide 40s infinite 24s;
+    animation: slide 40s infinite 124s;
 }
 .carousel img:nth-child(8) {
-    animation: slide 40s infinite 28s;
+    animation: slide 40s infinite 128s;
 }
 .carousel img:nth-child(9) {
-    animation: slide 40s infinite 32s;
+    animation: slide 40s infinite 132s;
 }
 .carousel img:nth-child(10) {
-    animation: slide 40s infinite 36s;
+    animation: slide 40s infinite 136s;
 }
 
 @keyframes slide {
-    0%, 100% { transform: translateX(100%) rotateY(90deg); opacity: 0; }
-    10% { transform: translateX(80%) rotateY(60deg); opacity: 1; }
-    20% { transform: translateX(60%) rotateY(30deg); opacity: 1; }
+    0%, 100% { transform: translateX(300%) rotateY(90deg); opacity: 1; }
+    10% { transform: translateX(200%) rotateY(60deg); opacity: 1; }
+    20% { transform: translateX(100%) rotateY(30deg); opacity: 1; }
     30% { transform: translateX(50%) rotateY(0deg); opacity: 1; }
     40% { transform: translateX(20%) rotateY(-30deg); opacity: 1; }
     50% { transform: translateX(0%) rotateY(-60deg); opacity: 1; }
-    60% { transform: translateX(-20%) rotateY(-90deg); opacity: 0; }
-    70%{ transform: translateX(-100%) rotateY(-90deg); opacity: 0; }
+    60% { transform: translateX(-20%) rotateY(-90deg); opacity: 1; }
+    70%{ transform: translateX(-100%) rotateY(-90deg); opacity: 1; }
     80%{}
     90%{}
     100% { }
