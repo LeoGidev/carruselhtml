@@ -19,7 +19,6 @@ body {
 
 .carousel {
     display: flex;
-    animation: slide 20s infinite linear;
 }
 
 .carousel img {
