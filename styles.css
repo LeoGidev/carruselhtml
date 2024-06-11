@@ -31,7 +31,7 @@ body {
 .carousel img:not(:first-child) {
     width: 50px;
 }
-
+/*
 @keyframes slide {
     0% {
         transform: translateX(0);
