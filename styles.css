@@ -82,15 +82,8 @@ body {
          opacity: 1;
           z-index:0;
         }
-   
-
-
     65% { transform: translateX(11.5vw) rotateY(-150deg) translateZ(-100); opacity: 1; z-index:-100; scale:0.8;}
-    70% { transform: translateX(23vw) rotateY(-180deg) translateZ(-150); opacity: 1; z-index:-150; scale:0.7;}
-    75% { transform: translateX(34.5vw) rotateY(-210deg) translateZ(-100); opacity: 1; z-index:-100; scale:0.8;}
-    80% { transform: translateX(34.5vw) rotateY(-210deg) translateZ(-100); opacity: 1; z-index:-100; scale:0.8;}
-    85% { transform: translateX(34.5vw) rotateY(-210deg) translateZ(-100); opacity: 1; z-index:-100; scale:0.8;}
-    90% { transform: translateX(34.5vw) rotateY(-210deg) translateZ(-100); opacity: 1; z-index:-100; scale:0.8;}
+ 
     100% { transform: translateX(79.5vw) rotateY(-270deg) translateZ(0); opacity: 1; z-index:0; filter: blur(100); scale:0.9;}
 }
 
