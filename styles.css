@@ -29,7 +29,7 @@ body {
 
 .carousel img {
     position: absolute;
-    height: 100%;
+    width: 100px;
     transition: transform 1s, opacity 1s;
     opacity: 0;
     transform: translateX(90vw), rotateY(90deg);
