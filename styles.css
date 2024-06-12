@@ -72,30 +72,15 @@ body {
          z-index:0;
          scale:1; 
         }
-    10% { 
-        transform: translateX(74vw) rotateY(60deg) translateZ(50px);
+    25% { 
+        transform: translateX(40vw) rotateY(0deg) translateZ(150px);
          opacity: 1; 
          z-index:50;
          }
-    20% { 
-        transform: translateX(58vw) rotateY(0deg) translateZ(100px);
-        opacity: 1;
-        z-index:100;
-     }
-    30% { 
-        transform: translateX(42vw) rotateY(0deg) translateZ(100px);
-        opacity: 1;
-        z-index:150; 
-    }
-    40% {
-         transform: translateX(26vw) rotateY(-60deg) translateZ(50px);
-         opacity: 1;
-         z-index:100; 
-        }
     50% { 
-        transform: translateX(10vw) rotateY(-90deg) translateZ(50px);
+        transform: translateX(10vw) rotateY(-90deg) translateZ(0px);
          opacity: 1;
-          z-index:50;
+          z-index:0;
         }
     55% { 
         transform: translateX(11.5vw) rotateY(-90deg) translateZ(0); 
