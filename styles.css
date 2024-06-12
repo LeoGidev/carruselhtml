@@ -72,32 +72,14 @@ body {
          opacity: 1;
          z-index:0;
          scale:1; 
-         border: 2px solid rgb(72, 0, 255);
+         border: 10px solid rgb(72, 0, 255);
         }
-    25% { 
-        transform: translateX(40vw) rotateY(0deg) translateZ(150px);
-         opacity: 1; 
-         z-index:50;
-         border: 2px solid rgb(0, 255, 89);
-         }
-    50% { 
-        transform: translateX(10vw) rotateY(-90deg) translateZ(0px);
-         opacity: 1;
-          z-index:0;
-          scale: 1;
-          border: 2px solid rgb(246, 255, 0);
-        }
-    75% { transform: translateX(40vw) rotateY(0deg) translateZ(-100);
-         opacity: 1; 
-         z-index:-100;
-         scale:0.8;
-         border: 2px solid red;
-        }
-    100% { transform: translateX(190vw) rotateY(90deg) translateZ(-100);
+  
+    100% { transform: translateX(-190vw) rotateY(90deg) translateZ(-100);
             opacity: 1; 
             z-index:-100;
             scale:1;
-            border: 2px solid rgb(255, 254, 254);
+            border: 10px solid rgb(255, 254, 254);
            }
  
     
