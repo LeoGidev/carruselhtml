@@ -67,33 +67,33 @@ body {
 
 @keyframes slide {
     0% { 
-        transform: translateX(79.5vw) rotateY(90deg) translateZ(0);
+        transform: translateX(90vw) rotateY(90deg) translateZ(0);
          opacity: 1;
          z-index:0;
          scale:1; 
         }
-    5% { 
-        transform: translateX(68vw) rotateY(60deg) translateZ(50px);
+    10% { 
+        transform: translateX(74vw) rotateY(60deg) translateZ(50px);
          opacity: 1; 
          z-index:50;
          }
-    15% { 
-        transform: translateX(56.5vw) rotateY(30deg) translateZ(100px);
+    20% { 
+        transform: translateX(58vw) rotateY(0deg) translateZ(100px);
         opacity: 1;
         z-index:100;
      }
-    25% { 
-        transform: translateX(45vw) rotateY(0deg) translateZ(150px);
+    30% { 
+        transform: translateX(42vw) rotateY(0deg) translateZ(100px);
         opacity: 1;
         z-index:150; 
     }
-    35% {
-         transform: translateX(34.5vw) rotateY(-30deg) translateZ(100px);
+    40% {
+         transform: translateX(26vw) rotateY(-60deg) translateZ(50px);
          opacity: 1;
          z-index:100; 
         }
-    45% { 
-        transform: translateX(23vw) rotateY(-60deg) translateZ(50px);
+    50% { 
+        transform: translateX(10vw) rotateY(-90deg) translateZ(50px);
          opacity: 1;
           z-index:50;
         }
