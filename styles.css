@@ -113,8 +113,8 @@ body {
          scale:0.8;
          border: 20px solid red;
         }
-        50% { 
-            transform: translateX(10vw) rotateY(-90deg) translateZ(0px);
+        87.5% { 
+            transform: translateX(70vw) rotateY(45deg) translateZ(0px);
              opacity: 1;
               z-index:0;
               scale: 1;
