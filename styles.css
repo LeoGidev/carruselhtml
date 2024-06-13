@@ -9,7 +9,7 @@ body {
 }
 
 .carousel-container {
-    /*border: 3px solid white;
+    border: 3px solid white;
     border-radius: 20px;
     /*overflow: hidden;*/
     width: 100vw;
@@ -19,7 +19,7 @@ body {
 }
 
 .carousel {
-    /*border: 2px solid red;*/
+    border: 2px solid red;
     display: flex;
     position: absolute;
     width: 100%;
@@ -95,7 +95,7 @@ body {
             border: 20px solid rgb(0, 255, 89);
             }
     50% { 
-        transform: translateX(10vw) rotateY(-90deg);
+        transform: translateX(-10vw) rotateY(-90deg);
          opacity: 1;
           z-index:0;
           scale: 1;
