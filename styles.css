@@ -106,7 +106,7 @@ body {
             transform: translateX(20vw) rotateY(-45deg);
              opacity: 1;
               z-index:0;
-              scale: 1;
+              scale: 0.9;
               border: 10px solid rgb(246, 255, 0);
             }
 
@@ -126,7 +126,7 @@ body {
     100% { transform: translateX(90vw) rotateY(90deg);
             opacity: 1; 
             z-index:-100;
-            scale:1;
+            scale:0.9;
             border: 10px solid rgb(255, 254, 254);
             border-radius: 50%;
            }
