@@ -29,7 +29,7 @@ body {
 
 .carousel img {
     position: absolute;
-    width: 100px;
+    width: 18vw;
     transition: transform 1s, opacity 1s;
     opacity: 0;
     transform: translateX(90vw), rotateY(90deg);
@@ -68,53 +68,56 @@ body {
 
 @keyframes slide {
     0% { 
-        transform: translateX(90vw) rotateY(90deg) translateZ(0);
+        transform: translateX(90vw) rotateY(90deg) ;
          opacity: 1;
          z-index:0;
          scale:1; 
          border: 10px solid rgb(72, 0, 255);
+         border-radius: 50%;
         }
         12.5% { 
-            transform: translateX(70vw) rotateY(45deg) translateZ(150px);
+            transform: translateX(80vw) rotateY(45deg) ;
             opacity: 1; 
             z-index:50;
             border: 20px solid rgb(0, 255, 89);
             }
     25% { 
-        transform: translateX(50vw) rotateY(0deg) translateZ(150px);
+        transform: translateX(50vw) rotateY(0deg) ;
          opacity: 1; 
          z-index:50;
          border: 20px solid rgb(0, 255, 89);
+         border-radius: 0%;
          }
          37.5% { 
-            transform: translateX(30vw) rotateY(-45deg) translateZ(150px);
+            transform: translateX(20vw) rotateY(-45deg) ;
             opacity: 1; 
             z-index:50;
             border: 20px solid rgb(0, 255, 89);
             }
     50% { 
-        transform: translateX(10vw) rotateY(-90deg) translateZ(0px);
+        transform: translateX(10vw) rotateY(-90deg);
          opacity: 1;
           z-index:0;
           scale: 1;
           border: 10px solid rgb(246, 255, 0);
+          border-radius: 50%;
         }
         62.5% { 
-            transform: translateX(30vw) rotateY(-45deg) translateZ(0px);
+            transform: translateX(20vw) rotateY(-45deg);
              opacity: 1;
               z-index:0;
               scale: 1;
               border: 10px solid rgb(246, 255, 0);
             }
 
-    75% { transform: translateX(40vw) rotateY(0deg);
+    75% { transform: translateX(50vw) rotateY(0deg);
          opacity: 1; 
          z-index:-100;
          scale:0.8;
          border: 20px solid red;
         }
         87.5% { 
-            transform: translateX(70vw) rotateY(45deg) translateZ(0px);
+            transform: translateX(80vw) rotateY(45deg) ;
              opacity: 1;
               z-index:0;
               scale: 1;
@@ -125,6 +128,7 @@ body {
             z-index:-100;
             scale:1;
             border: 10px solid rgb(255, 254, 254);
+            border-radius: 50%;
            }
  
     
