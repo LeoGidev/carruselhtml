@@ -68,7 +68,7 @@ body {
 
 @keyframes slide {
     0% { 
-        transform: translateX(90vw) rotateY(90deg) ;
+        transform: translateX(70vw) rotateY(90deg) ;
          opacity: 1;
          z-index:0;
          scale:1; 
@@ -76,20 +76,20 @@ body {
          border-radius: 50%;
         }
         12.5% { 
-            transform: translateX(80vw) rotateY(45deg) ;
+            transform: translateX(60vw) rotateY(45deg) ;
             opacity: 1; 
             z-index:50;
             border: 20px solid rgb(0, 255, 89);
             }
     25% { 
-        transform: translateX(50vw) rotateY(0deg) ;
+        transform: translateX(30vw) rotateY(0deg) ;
          opacity: 1; 
          z-index:50;
          border: 20px solid rgb(0, 255, 89);
          border-radius: 0%;
          }
          37.5% { 
-            transform: translateX(20vw) rotateY(-45deg) ;
+            transform: translateX(0vw) rotateY(-45deg) ;
             opacity: 1; 
             z-index:50;
             border: 20px solid rgb(0, 255, 89);
@@ -103,27 +103,27 @@ body {
           border-radius: 50%;
         }
         62.5% { 
-            transform: translateX(20vw) rotateY(-45deg);
+            transform: translateX(0vw) rotateY(-45deg);
              opacity: 1;
               z-index:0;
               scale: 0.9;
               border: 10px solid rgb(246, 255, 0);
             }
 
-    75% { transform: translateX(50vw) rotateY(0deg);
+    75% { transform: translateX(30vw) rotateY(0deg);
          opacity: 1; 
          z-index:-100;
          scale:0.8;
          border: 20px solid red;
         }
         87.5% { 
-            transform: translateX(80vw) rotateY(45deg) ;
+            transform: translateX(60vw) rotateY(45deg) ;
              opacity: 1;
               z-index:0;
               scale: 1;
               border: 10px solid rgb(246, 255, 0);
         }
-    100% { transform: translateX(90vw) rotateY(90deg);
+    100% { transform: translateX(70vw) rotateY(90deg);
             opacity: 1; 
             z-index:-100;
             scale:0.9;
